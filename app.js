@@ -7,7 +7,7 @@ const http = require("http");
 const fs = require("fs");
 var request = require("request");
 
-const homeFile = fs.readFileSync("popup.html", "utf-8");
+const homeFile = fs.readFileSync("index.html", "utf-8");
 
 
 // API KEY
